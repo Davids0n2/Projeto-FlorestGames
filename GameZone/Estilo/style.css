@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Pixel;
+    src: url(../fontes/Pixeled.ttf);
+}
+
+@font-face {
+    font-family: Disco;
+    src: url(../fontes/DigitalDisco-Thin.ttf);
+}
+:root{
+    --cor-links-header: #ff970a;
+    --cor-letras: #ffffffda;
+    --cor-body: #1c1c1c;
+    --cor-alerta: rgba(255, 26, 26, 0.747);
+}
+body{
+   background-color: var(--cor-body);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2 , h3, p, .list {
+    color: var(--cor-letras);
+}
+header{
+    background-color: #696363;
+    background-image: url('../imagens/floresta.ss.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+   
+    
+}
+
+header h1{
+    padding-top: 100px;
+    font-family: 'Pixel', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2.6pc;
+    color: #ffffff;
+}
+
+/*Classes e Id do Header*/
+
+.destaque{
+    color: green;
+    display: inline-flex;
+}
+
+#h1-linha{
+    font-family: 'Pixel', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.3pc;
+}
+#p-linha{
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.3pc;
+}
+
+nav{
+    text-align: center;
+}
+
+.secp{
+    text-align: center;
+}
+
+#divC{
+    text-align: center;
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+#texto-c{
+    text-decoration: underline;
+    color: var(--cor-letras);
+    text-align: center;
+    margin: 10px;
+}
+
+.logo{
+    padding: 40px;
+    padding-bottom: 5px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.imagem-celular{
+    margin-left: 100px;
+    
+}
+.imagem-celular, #texto-c{
+   padding: 10px;
+   
+}
+
+.imagem-pc{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 100px;    
+}
+
+.imagem-fliper{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+.linha{
+    background-color: white;
+    padding: 1px;
+    margin: 10px 30px 10px 30px ;
+}
+
+ul{
+    list-style: none;
+}
+
+
