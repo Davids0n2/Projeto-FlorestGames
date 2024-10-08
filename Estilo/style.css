@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: Disco;
+    font-family: 'Disco';
     src: url(../fontes/DigitalDisco-Thin.ttf);
 }
 :root{
@@ -30,6 +30,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
+    height: 450px;
     
 
    
@@ -60,6 +61,8 @@ header h1{
     font-family: 'Disco', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 1.3pc;
+    text-decoration: underline;
+
 }
 
 
@@ -119,8 +122,9 @@ a:hover{
     padding-right: 100px;
 }
 .linha{
-    color: #000;
-    text-align: center;
+    border-radius: 5%;
+    color: #ffffff;
+    text-align: center ;
     background-color: rgba(255, 255, 255, 0.397);
     padding: 1px;
     margin: 10px 30px 10px 30px ;
@@ -128,6 +132,30 @@ a:hover{
     font-size: 1.7em;
 }
 
+#linha01{
+    background-image: url(../imagens/fundo001.avif);
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#linha02{
+    background-image: url(../imagens/fundo002.avif);
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+    
+}
+#linha03{
+    background-image: url(../imagens/fundo003.jfif);
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center bottom;
+}
 
 
 
