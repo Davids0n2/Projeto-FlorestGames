@@ -121,6 +121,19 @@ a:hover{
     padding-top: 30px;
     padding-right: 100px;
 }
+
+footer{
+    text-align: center;
+}
+
+#aviso > h1{
+    color: rgb(245, 110, 0);
+}
+
+#apoio-do-projeto > h1{
+    color: rgb(0, 240, 12);
+}
+
 .linha{
     border-radius: 5%;
     color: #ffffff;
@@ -133,6 +146,7 @@ a:hover{
 }
 
 #linha01{
+    color: #ffffff;
     background-image: url(../imagens/fundo001.avif);
     height: 50px;
     background-size: cover;
@@ -140,12 +154,17 @@ a:hover{
     background-position:center;
 }
 
+
+#linha01:hover{
+    text-decoration: underline;
+}
+
 #linha02{
     background-image: url(../imagens/fundo002.avif);
     height: 50px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: bottom left;
     
     
 }
