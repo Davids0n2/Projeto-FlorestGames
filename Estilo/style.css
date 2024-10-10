@@ -50,6 +50,13 @@ header h1{
     color: #ffffff;
 }
 
+@media(max-width:300px){
+    header h1{
+        font-size: 1.9pc;
+    }
+}
+
+
 /*Classes e Id do Header*/
 
 .destaque{
