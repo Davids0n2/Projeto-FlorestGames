@@ -14,12 +14,12 @@
     --cor-body: #1c1c1c;
     --cor-alerta: rgba(255, 26, 26, 0.747);
 }
-body{
-   background-color: var(--cor-body);
-}
 *{
     padding: 0px;
     margin: 0px;
+}
+body{
+   background-color: var(--cor-body);
 }
 h1, h2 , h3, p, .list {
     color: var(--cor-letras);
@@ -41,7 +41,7 @@ header h1{
     padding-top: 100px;
     font-family: 'Pixel', Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 2.6pc;
+    font-size: 2.3pc;
     color: #ffffff;
 }
 
@@ -65,33 +65,23 @@ header h1{
 
 }
 
-
-
-nav{
-    text-align: center;
-}
-
 /*Inicio do C*/
-.celular{ 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 .div-c{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
 .imagens-linha1{ 
-    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    flex: 1;
     font-size: .9em;
     text-align: center;
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
     padding: 10px;
     margin: 1px;
-    flex: 1;
     
 }
 .imagens{
@@ -100,27 +90,24 @@ nav{
 }
 
 
-/*fim da parte do c*/
-a{
-    text-decoration: none;
+/*Inicio do P*/
+
+.div-p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-a:hover{
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
+.imagens-linha2{
+    flex: 1;
+    font-size: .9em;
+    text-align: center;
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 1px;
+ 
 }
 
-.imagem-pc{
-    text-align: left;
-    padding-top: 30px;
-    padding-left: 100px;    
-}
-
-.imagem-fliper{
-    text-align: right;
-    padding-top: 30px;
-    padding-right: 100px;
-}
 
 footer{
     text-align: center;
@@ -145,6 +132,10 @@ footer{
     font-size: 1.7em;
 }
 
+.linha:hover{
+    text-decoration: underline;
+}
+
 #linha01{
     color: #ffffff;
     background-image: url(../imagens/fundo001.avif);
@@ -155,12 +146,8 @@ footer{
 }
 
 
-#linha01:hover{
-    text-decoration: underline;
-}
-
 #linha02{
-    background-image: url(../imagens/fundo002.avif);
+    background-image: url(../imagens/arvores-doida.jpg);
     height: 50px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -169,12 +156,20 @@ footer{
     
 }
 #linha03{
-    background-image: url(../imagens/fundo003.jfif);
+    background-image: url(../imagens/mato-de-noite.jpg);
     height: 50px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center bottom;
+    background-position:center right;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
 
 
