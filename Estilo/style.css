@@ -37,6 +37,11 @@ header{
     
 }
 
+#h1-inicio{
+    text-decoration-color: rgb(255, 255, 255);
+    
+}
+
 header h1{
     padding-top: 100px;
     font-family: 'Pixel', Arial, Helvetica, sans-serif;
@@ -48,7 +53,7 @@ header h1{
 /*Classes e Id do Header*/
 
 .destaque{
-    color: green;
+    color: rgb(0, 255, 0);
     display: inline-flex;
 }
 
@@ -142,7 +147,7 @@ footer{
     height: 50px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:center top ;
 }
 
 
@@ -169,7 +174,18 @@ a{
 
 a:hover{
     text-decoration: underline;
-    color: rgb(255, 255, 255);
 }
 
+.destaque2{
+    text-decoration: underline;
+    color: #777777;
+}
 
+#chavepix{
+    text-decoration: double;
+    color: #777777;
+}
+
+#chavepix:hover{
+    text-decoration: underline;
+}
