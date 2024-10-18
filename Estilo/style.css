@@ -60,8 +60,9 @@ header h1{
 }
 
 nav{
+    border: 1px solid red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
     
 }
@@ -70,9 +71,19 @@ nav > ul{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 3rem;
+    
 }
 
+li{
+    font-size: 1.1em;
+    padding-left: 10px;
+    border:1px solid red;
+}
+
+.favicon{
+    width: 10px;
+    height: 10px;
+}
 @media(max-width:300px){
     header h1{
         font-size: 1.9pc;
