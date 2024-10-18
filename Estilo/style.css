@@ -59,6 +59,20 @@ header h1{
     color: #ffffff;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
 @media(max-width:300px){
     header h1{
         font-size: 1.9pc;
@@ -89,8 +103,6 @@ header h1{
 /*Inicio do C*/
 .div-c{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
     
