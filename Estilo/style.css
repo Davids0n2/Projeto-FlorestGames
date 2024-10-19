@@ -132,7 +132,7 @@ li{
         
     }
     .menu .top-bar {
-        
+        width: 15%;
         flex-direction: row;
     }
     .menu > ul {
