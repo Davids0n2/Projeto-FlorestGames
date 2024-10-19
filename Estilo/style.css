@@ -58,36 +58,101 @@ header h1{
     font-size: 2.3pc;
     color: #ffffff;
 }
-
-nav{
-    border: 1px solid red;
+.menu{
     display: flex;
-    justify-content: center;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.3s;
 
-    
 }
 
-nav > ul{
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.scrolled{
+    background-color: #1c1c1c;
+}
+
+.menu > ul{
     display: flex;
     align-items: center;
     list-style: none;
     
 }
 
+ul a{
+    text-decoration: none;
+    color: var(--cor-letras);
+}
+
+ul  a:hover{
+    color: rgb(201, 201, 201);
+}
+
 li{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
-    padding-left: 10px;
-    border:1px solid red;
+    padding-right: 100px;
 }
 
 .favicon{
-    width: 10px;
-    height: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
 }
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--cor-letras);
+    margin: 5px 0;
+  }
+  @media (max-width: 768px) {
+    .menu {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 0 20px;
+    }
+
+    .menu > ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .menu > ul.active {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
+    .menu > ul > li {
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+    }
+    .favicon {
+        margin: 0 auto;
+    }
+  }
 @media(max-width:300px){
     header h1{
         font-size: 1.9pc;
     }
+    .menu > ul > li {
+        font-size: 1em;
+        padding: 5px;
+      }
 }
 
 
@@ -218,22 +283,22 @@ footer{
     box-shadow: 2px 2px 6px black;
 }
 
-a{
+.apoio-do-projeto a{
     text-decoration: none;
 }
 
-a:hover{
+.apoio-do-projeto a:hover{
     text-decoration: underline;
 }
 
 .destaque2{
     text-decoration: underline;
-    color: #777777;
+    color: #838383;
 }
 
 #chavepix{
     text-decoration: double;
-    color: #777777;
+    color: #a3a3a3;
 }
 
 #chavepix:hover{
