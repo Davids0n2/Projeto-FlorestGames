@@ -37,6 +37,7 @@ header{
     background: url(../imagens/game-pc-header.png) center top no-repeat;
     background-size: cover;
     height: 450px;
+    box-shadow: 2px 2px 6px black;
 }
 
 header h1{
