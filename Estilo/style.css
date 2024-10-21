@@ -28,7 +28,7 @@
 body{
    background-color: var(--cor-body);
 }
-h1, h2 , h3, p, .list {
+h1, h2 , h3, p{
     color: var(--cor-letras);
 }
 header{
@@ -39,9 +39,6 @@ header{
     background-repeat: no-repeat;
     height: 90vh;
     box-shadow: 1px 1px 6px black;
-    
-
-   
     
 }
 
@@ -65,8 +62,13 @@ header h1{
 }
 
 .bem-vindo h1{
-    font-size: 50px;
+    font-size: 3em;
     font-family: 'disco' , Arial, Helvetica, sans-serif;
+}
+
+.bem-vindo p{
+    font-size: 1.3em;
+
 }
 
 
@@ -200,50 +202,6 @@ li{
 
 }
 
-/*Inicio do C*/
-.div-c{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.imagens-linha1{ 
-    flex: 1;
-    font-size: .9em;
-    text-align: center;
-    font-family: 'Disco', Arial, Helvetica, sans-serif;
-    padding: 20px;
-    margin: 1px;
-
-}
-.imagens{
-    width: 130px;
-    height: 130px;
-}
-
-.imagens-linha1:hover{
-    box-shadow: 2px 2px 6px black;
-}
-
-/*Inicio do P*/
-
-.div-p{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.imagens-linha2{
-    flex: 1;
-    font-size: .9em;
-    text-align: center;
-    font-family: 'Disco', Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin: 1px;
-}
-
-.imagens-linha2:hover{
-    box-shadow: 2px 2px 6px black;
-}
 
 
 footer{
@@ -297,3 +255,58 @@ footer{
 #chavepix:hover{
     text-decoration: underline;
 }
+
+
+.h1-tutorial h1{
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--cor-letras);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.para-mobile{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#tutorial1{
+    background: url(../imagens/tutorial-para-celular.png);
+    background-size: cover;
+    box-shadow: 1px 1px 6px black;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+#tutorial2{
+    background: url(../imagens/tutorial-celular.png);
+    background-size: cover;
+    box-shadow: 1px 1px 6px black;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.para-pc{
+    margin: 10px;
+    box-shadow: 1px 1px 6px black;
+}
+#tutorial{
+    height: 100px ;
+    background: url(../imagens/tutorial.png) center no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 6px black;
+
+}
+

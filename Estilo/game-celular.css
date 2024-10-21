@@ -34,9 +34,29 @@ body{
 }
 
 header{
-    background: url(../imagens/game-celular-header.png) center bottom no-repeat black;
-    background-size: ;
+    background: url(../imagens/game-celular-header.png) center  no-repeat black;
+    background-size: cover;
     height: 450px;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 130px;
+    font-family: 'Pixel';
+    font-size: 2.3pc;
+    
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration-color: white;
+}
+
+.h1-princial-c{
+    padding: 10px;
+    font-family: 'disco', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .div-c{
@@ -197,4 +217,43 @@ li{
         font-size: 1em;
         padding: 5px;
       }
+}
+
+.destaque{
+    color: rgb(0, 255, 0);
+    display: inline-flex;
+}
+
+.destaque2{
+    text-decoration: underline;
+    color: #838383;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aviso{
+    text-align: center;
+}
+
+#aviso {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3-0px;
+    text-align: center;
+    color: rgb(245, 110, 0);
+}
+
+#apoio-do-projeto > h1{
+    color: rgb(0, 240, 12);
+}
+
+#chavepix{
+    text-decoration: double;
+    color: #a3a3a3;
+}
+
+#chavepix:hover{
+    text-decoration: underline;
 }

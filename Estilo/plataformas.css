@@ -92,15 +92,6 @@ header a{
     border: 1px solid rgb(73, 65, 65);
 }
 
-#pfm-pc{
-    
-}
-
-#pfm-mobile{
-
-}
-
-
 .imge{
     border-radius: 5%;
     box-shadow: 1px 1px 6px black;
@@ -224,3 +215,43 @@ li{
         margin: 0px 30px 20px 30px ;
 
  }
+
+
+ .destaque{
+    color: rgb(0, 255, 0);
+    display: inline-flex;
+}
+
+.destaque2{
+    text-decoration: underline;
+    color: #838383;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aviso{
+    text-align: center;
+}
+
+#aviso {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3-0px;
+    text-align: center;
+    color: rgb(245, 110, 0);
+}
+
+#apoio-do-projeto > h1{
+    color: rgb(0, 240, 12);
+}
+
+#chavepix{
+    text-decoration: double;
+    color: #a3a3a3;
+}
+
+#chavepix:hover{
+    text-decoration: underline;
+}

@@ -30,8 +30,18 @@
             <h1>Florest Games</h1>
         </a>
     </header>
+
+    <div class="linha"></div>
+
+    <section class="h1-princial-p">
+        <h1>Aproveite os jogos e recomende um jogo no e-mail no final da página:)</h1>
+    </section>
+    <div class="linha"></div>
+
     <main>
         <article>
+
+
             <div class="linha" id="linha02">
                 <p>Jogos para Pc</p>
             </div>
@@ -158,8 +168,36 @@
     </div>
         </article>
     </main>
-    <footer>
+    
+    <div class="linha"></div>
 
+    <footer>
+        <div id="apoio-do-projeto">
+            <h1>-Apoie meu projeto-</h1>
+            <p>Se você poder me ajudar a continuar o projeto e adicinar cada vez mais jogos, doe qualquer valor na minha chave <span class="destaque">pix</span> abaixo, muito obrigado e boa jogatina. </p><br>
+                <p><span id="chavepix">(Copiar chave pix)</span></p>
+
+
+                <script>
+                    document.getElementById('chavepix').addEventListener('click', function() {
+                    const chavepix = '80a5cc81-3406-493b-b5bc-431e74e15cae';
+                    const tempInput = document.createElement('input');
+                    tempInput.value = chavepix;
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    alert('Chave Pix copiada!');
+                });
+                </script><br>
+
+
+                <p>Recomende jogos ou réporte erros nos links de download neste e-mail: <span class="destaque2"><a href="mailto:FlorestGames.GG@gmail.com" class="destaque2">FlorestGames.GG@gmail.com</a></span> </p><br><br>
+ 
+            </div>
+        <br>
+        <p style="font-family: 'Pixel', Arial, Helvetica, sans-serif;
+        text-decoration-color: rgb(255, 255, 255); font-size: 2pc; text-decoration: underline; ">Florest Games</p>
     </footer>
 
     <script src="Script-games-pc.js"></script>

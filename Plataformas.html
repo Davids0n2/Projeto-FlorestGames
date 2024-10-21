@@ -46,11 +46,11 @@
 
                 <section class="pfm" id="pfm-mobile">
                     <div ><a href="game-celular.html"><img src="imagens/pixel-celular.png" alt="pixel art de celular" class="imge"></a><p>MOBILE</p>
-                </div>99
+                </div>
             </section>
 
                 <section class="pfm" id="pfm-fliper">
-                 <div><img src="imagens/piexelart-fliper.png" alt="pixel art de fliper" class="imge"><p>FLIPER</p>
+                 <div><img src="imagens/piexelart-fliper.png" alt="pixel art de fliper" class="imge"><p>FLIPER</p><p style="font-family: Arial, Helvetica, sans-serif; color: red;">(Disponível 10/27/24)</p>
                 </div>
                 </section>
 
@@ -60,8 +60,36 @@
 
         </article>
     </main>
-    <footer>
+    
+    <div class="linha"></div>
 
+    <footer>
+        <div id="apoio-do-projeto">
+            <h1>-Apoie meu projeto-</h1>
+            <p>Se você poder me ajudar a continuar o projeto e adicinar cada vez mais jogos, doe qualquer valor na minha chave <span class="destaque">pix</span> abaixo, muito obrigado e boa jogatina. </p><br>
+                <p><span id="chavepix">(Copiar chave pix)</span></p>
+
+
+                <script>
+                    document.getElementById('chavepix').addEventListener('click', function() {
+                    const chavepix = '80a5cc81-3406-493b-b5bc-431e74e15cae';
+                    const tempInput = document.createElement('input');
+                    tempInput.value = chavepix;
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    alert('Chave Pix copiada!');
+                });
+                </script><br>
+
+
+                <p>Recomende jogos ou réporte erros nos links de download neste e-mail: <span class="destaque2"><a href="mailto:FlorestGames.GG@gmail.com" class="destaque2">FlorestGames.GG@gmail.com</a></span> </p><br><br>
+ 
+            </div>
+        <br>
+        <p style="font-family: 'Pixel', Arial, Helvetica, sans-serif;
+        text-decoration-color: rgb(255, 255, 255); font-size: 2pc; text-decoration: underline; ">Florest Games</p>
     </footer>
 
     <div class="linha"></div>
