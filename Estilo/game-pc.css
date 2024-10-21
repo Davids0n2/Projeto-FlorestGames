@@ -16,60 +16,40 @@
 }
 :root{
     --cor-links-header: #ff970a;
-    --cor-letras: #ffffffda;
+    --cor-letras: #ffffff;
     --cor-body: #1c1c1c;
-    --cor-aviso: rgb(245, 110, 0);
-    --cor-alerta:rgba(255, 26, 26, 0.747);
+    --cor-alerta: rgb(0, 240, 12);
 }
 *{
     padding: 0px;
     margin: 0px;
 }
-body{
-   background-color: var(--cor-body);
-}
-h1, h2 , h3, p, .list {
+
+h1 ,h2 ,p{
     color: var(--cor-letras);
 }
-header{
-    margin-bottom: 20px;
-    background-color: #696363;
-    background-image: url('../imagens/floresta.ss.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 90vh;
-    box-shadow: 1px 1px 6px black;
-    
 
-   
-    
+body{
+    background-color: #1c1c1c;
 }
 
-#h1-inicio{
-    font-family: 'Pixel', Arial, Helvetica, sans-serif;
-    text-decoration-color:  var(--cor-letras);
-    
+header{
+    background: url(../imagens/game-pc-header.png) center top no-repeat;
+    background-size: cover;
+    height: 450px;
 }
 
 header h1{
-    padding-top: 100px;
-    font-family: 'Sans', Arial, Helvetica, ;
     text-align: center;
+    padding-top: 130px;
+    font-family: 'Pixel';
     font-size: 2.3pc;
-    color: #ffffff;
+    text-decoration-color: white;
 }
 
-.bem-vindo{
-    text-align: center;
-
+#h1-inicio{
+    text-decoration-color: white;
 }
-
-.bem-vindo h1{
-    font-size: 50px;
-    font-family: 'disco' , Arial, Helvetica, sans-serif;
-}
-
-
 
 .menu{
     display: flex;
@@ -179,54 +159,6 @@ li{
       }
 }
 
-
-/*Classes e Id do Header*/
-
-.destaque{
-    color: rgb(0, 255, 0);
-    display: inline-flex;
-}
-
-#h1-linha{
-    font-family: 'Sans', Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 2.3pc;
-}
-#p-linha{
-    font-family: 'Disco', Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 1.2pc;
-    text-decoration: underline;
-
-}
-
-/*Inicio do C*/
-.div-c{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.imagens-linha1{ 
-    flex: 1;
-    font-size: .9em;
-    text-align: center;
-    font-family: 'Disco', Arial, Helvetica, sans-serif;
-    padding: 20px;
-    margin: 1px;
-
-}
-.imagens{
-    width: 130px;
-    height: 130px;
-}
-
-.imagens-linha1:hover{
-    box-shadow: 2px 2px 6px black;
-}
-
-/*Inicio do P*/
-
 .div-p{
     display: flex;
     flex-wrap: wrap;
@@ -245,55 +177,32 @@ li{
     box-shadow: 2px 2px 6px black;
 }
 
-
-footer{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.aviso{
-    text-align: center;
-}
-
-#aviso {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3-0px;
-    text-align: center;
-    color: rgb(245, 110, 0);
-}
-
-#apoio-do-projeto > h1{
-    color: rgb(0, 240, 12);
+.imagens{
+    width: 130px;
+    height: 130px;
 }
 
 .linha{
+    border-radius: 1%;
+    color: #ffffff;
+    text-align: center ;
     background-color: rgba(255, 255, 255, 0.397);
     padding: 1px;
     margin: 10px 30px 10px 30px ;
-
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
 }
 
-
-
-
-.apoio-do-projeto a{
-    text-decoration: none;
-}
-
-.apoio-do-projeto a:hover{
+.linha:hover{
     text-decoration: underline;
 }
 
-.destaque2{
-    text-decoration: underline;
-    color: #838383;
-}
 
-#chavepix{
-    text-decoration: double;
-    color: #a3a3a3;
-}
-
-#chavepix:hover{
-    text-decoration: underline;
+#linha02{
+    box-shadow: 2px 2px 6px black;
+    background-image: url(../imagens/arvores-doida.jpg);
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;  
 }

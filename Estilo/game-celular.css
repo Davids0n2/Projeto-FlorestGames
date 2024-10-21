@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Pixel';
+    src: url(../fontes/Pixeled.ttf);
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url(../fontes/PixelifySans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Disco';
+    src: url(../fontes/DigitalDisco-Thin.ttf);
+}
+:root{
+    --cor-links-header: #ff970a;
+    --cor-letras: #ffffff;
+    --cor-body: #1c1c1c;
+    --cor-alerta: rgb(0, 240, 12);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 ,h2 ,p{
+    color: var(--cor-letras);
+}
+
+body{
+    background-color: #1c1c1c;
+}
+
+header{
+    background: url(../imagens/game-celular-header.png) center bottom no-repeat black;
+    background-size: ;
+    height: 450px;
+}
+
+.div-c{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imagens-linha1{ 
+    flex: 1;
+    font-size: .9em;
+    text-align: center;
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 1px;
+
+}
+.imagens{
+    width: 130px;
+    height: 130px;
+}
+
+.imagens-linha1:hover{
+    box-shadow: 2px 2px 6px black;
+}
+
+.linha{
+    border-radius: 1%;
+    color: #ffffff;
+    text-align: center ;
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 1px;
+    margin: 10px 30px 10px 30px ;
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+}
+
+
+.linha:hover{
+    text-decoration: underline;
+}
+
+
+
+#linha01{
+    box-shadow: 2px 2px 6px black;
+    background-image: url(../imagens/fundo001.avif);
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;  
+}
+
+
+.menu{
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.3s;
+
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.menu > ul.active{
+    display: flex;
+}
+nav.active{
+    background-color: #1c1c1c;
+}
+nav.scrolled{
+    background-color: #1c1c1c;
+}
+
+
+ul a{
+    text-decoration: none;
+    color: var(--cor-letras);
+}
+
+ul  a:hover{
+    color: rgb(201, 201, 201);
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-right: 100px;
+}
+
+.favicon{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--cor-letras);
+    margin: 5px 0;
+  }
+  @media (max-width: 768px) {
+    .menu {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 0 20px;
+        
+    }
+    .menu .top-bar {
+        width: 15%;
+        flex-direction: row;
+    }
+    .menu > ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .menu > ul.active {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
+    .menu > ul > li {
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+    }
+    .favicon {
+        margin: 0 auto;
+    }
+    
+  }
+@media(max-width:300px){
+    header h1{
+        font-size: 1.9pc;
+    }
+    .menu > ul > li {
+        font-size: 1em;
+        padding: 5px;
+      }
+}
