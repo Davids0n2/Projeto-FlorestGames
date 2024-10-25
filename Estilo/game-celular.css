@@ -104,11 +104,9 @@ header a{
 
 #linha01{
     box-shadow: 2px 2px 6px black;
-    background-image: url(../imagens/fundo001.avif);
+    background: fixed url(../imagens/fundo001.avif) top center no-repeat;
     height: 50px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;  
 }
 
 

@@ -5,15 +5,21 @@
     src: url(../fontes/Pixeled.ttf);
 }
 
-@font-face {
-    font-family: 'Sans';
-    src: url(../fontes/PixelifySans-VariableFont_wght.ttf);
+@font-face{
+    font-family: 'Jersey';
+    src: url(../fontes/Jersey_10/Jersey10-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Disco';
     src: url(../fontes/DigitalDisco-Thin.ttf);
 }
+
+@font-face {
+    font-family: 'var' ;
+    src: url(../fontes/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
+}
+
 :root{
     --cor-links-header: #ff970a;
     --cor-letras: #ffffff;
@@ -35,67 +41,30 @@ body{
 
 header{
     margin-bottom: 30px;
-    background: #1c1c1c url(../imagens/Header-novidades.png) center center no-repeat ;
+    background: #1c1c1c url(../imagens/header-sobre.jpg) center center no-repeat ;
     background-size: cover;
     height: 450px;
     box-shadow: 2px 2px 6px black;
 }
 
-header > h1{
-    font-family: 'Pixel', Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    color: var(--cor-letras);
+header h1{
     text-align: center;
     padding-top: 100px;
+}
+
+#h1-inicio{
+    font-family: 'pixel', Arial, Helvetica, sans-serif;
+    text-decoration: underline;
     font-size: 2.3pc;
     color: #ffffff;
     text-shadow: 1px 1px 6px black;
 }
 
-header a{
-    text-decoration-color: var(--cor-letras);
-    color: var(--cor-letras);
-}
-.primeira-section h1{
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
-    text-align: center;
+.h1-princial-f{
     padding: 10px;
-
-}
-#h1-inicio{
-    padding: 10px;
-    font-family: 'pixel', Arial, Helvetica, sans-serif;
-    color: #ff970a;
+    font-family: 'disco', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
     text-align: center;
-}
-
-.plataforma{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.pfm{
-    flex: 1;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-
-}
-
-.pfm  p{
-    text-decoration:  underline;
-    font-family: 'sans' , Arial, Helvetica, sans-serif;
-    background-color: #6d6a6a94;
-    border: 1px solid rgb(73, 65, 65);
-    font-size: 1.6em;
-    text-shadow: 1px 1px 6px  black;
-    
-}
-
-.pfm div{
-    padding: 10px 0px 0px 0px;
-    background-color: #222121;
-    border: 1px solid rgb(73, 65, 65);
 }
 
 .imge{
@@ -105,6 +74,36 @@ header a{
     width: 220px;
 }
 
+.div-f{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imagens-linha3{ 
+    flex: 1;
+    font-size: .9em;
+    text-align: center;
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 1px;
+
+}
+.imagens{
+    width: 130px;
+    height: 130px;
+}
+
+.imagens-linha3:hover{
+    box-shadow: 2px 2px 6px black;
+}
+
+#linha03{
+    box-shadow: 2px 2px 6px black;
+    background: fixed url(../imagens/floresta-neve.avif) center bottom no-repeat;
+    height: 50px;
+    background-size: cover;
+}
 .menu{
     display: flex;
     background: transparent;
@@ -221,7 +220,6 @@ li{
         margin: 0px 30px 20px 30px ;
 
  }
-
 
  .destaque{
     color: rgb(0, 255, 0);

@@ -209,11 +209,9 @@ li{
 
 #linha02{
     box-shadow: 2px 2px 6px black;
-    background-image: url(../imagens/arvores-doida.jpg);
+    background: fixed url(../imagens/arvores-doida.jpg) bottom left no-repeat;
     height: 50px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom left;  
 }
 
 .destaque{
