@@ -74,11 +74,21 @@ section{
     justify-content: center;
 }
 section p{
-    padding: 10px;
-    font-family:'var';
-    color: #ffffff;
+    font-family:'var', Arial, Helvetica, sans-serif;
+    font-size: 1pc;
     text-align: justify;
+    color: #ffffff;
+    padding: 10px;
     
+}
+
+a{
+    text-decoration: none;
+    color: #dbff0c;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .menu{
