@@ -2,12 +2,94 @@
 <html lang="pt-br">
 <head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8020540476312764"
-     crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo/sobre.css">
     <title>Sobre mim</title>
 </head>
 <body>
-     <h1>Por enquanto nada. :(</h1>
+     <header>
+        <nav class="menu">
+            <div class="top-bar">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <a href="index.html"><img src="imagens/florestgames.png" alt="Favicon" class="favicon"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Plataformas.html">Plataformas</a></li>
+                <li><a href="Novidades.html">Novidades</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                
+            </ul>
+        </nav>
+        <a href="index.html" id="h1-inicio">
+            <h1 id="h1-inicio">Florest Games</h1>
+        </a>
+     </header>
+     <main>
+        <article>
+            <div class="linha"></div>
+            <h1>Sobre-mim</h1>
+            <section>
+                <p>Olá, meu nome é David, e estou iniciando minha carreira em desenvolvimento web.</p>
+            </section>
+            <br>
+            <section>
+                <p>Criei esse projeto como um desafio pessoal para desenvolver um site que beneficie a comunidade gamer do Brasil, que muitas vezes não tem condições de comprar um jogo devido aos seu preços altos demais no nosso país. Inicialmente, este projeto surgiu como uma prática para meu curso online de frontend, mas acabei gostando de como o site estava ficando. Então, decidi continuar melhorando o site. Estou trabalhando sozinho neste projeto e, como estou começando, peço desculpas por eventuais erros simples que alguns de vocês possam notar.</p>
+            </section>
+            <br>
+            <section>
+                <p>Proposta: Estou procurando uma ou duas pessoas para me ajudar a encontrar links de jogos para PC,MOBILE e FLIPER.
+                Caso esteja interessando em fazer parte da equipe e me ajudar, estou disposto a dar um pouco do meu lucro quando o site for monetizado. (Caso seja)</p>
+            </section>
+
+            <section>
+                <p>Entre em contado aqui: FlorestGames.gg@gmail.com</p>
+            </section>
+
+            <br>
+            <section>
+                <p>Se você gostar da ideia do projeto e quiser me incentivar com uma ajuda financeira, ficarei muito grato. <3 </p>
+            </section>
+
+            <div class="linha"></div>
+        </article>
+     </main>
+     <footer>
+        <div id="apoio-do-projeto">
+            <h1>-Apoie o projeto-</h1>
+            <p>Se você poder me ajudar a continuar o projeto e adicinar cada vez mais jogos, doe qualquer valor na minha chave <span class="destaque">pix</span> abaixo, muito obrigado e boa jogatina. </p><br>
+                <p><span id="chavepix">(Copiar chave pix)</span></p>
+
+
+                <script>
+                    document.getElementById('chavepix').addEventListener('click', function() {
+                    const chavepix = '80a5cc81-3406-493b-b5bc-431e74e15cae';
+                    const tempInput = document.createElement('input');
+                    tempInput.value = chavepix;
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    alert('Chave Pix copiada!');
+                });
+                </script><br>
+
+
+                <p>Recomende jogos ou réporte erros nos links de download neste e-mail: <span class="destaque2"><a href="mailto:FlorestGames.GG@gmail.com" class="destaque2">FlorestGames.GG@gmail.com</a></span> </p><br><br>
+ 
+            </div>
+        <br>
+        <p style="font-family: 'Pixel', Arial, Helvetica, sans-serif;
+        text-decoration-color: rgb(255, 255, 255); font-size: 2pc; text-decoration: underline; ">Florest Games</p>
+    </footer>
+
 </body>
+
+<script src="scrip-sobre.js"></script>
 </html>

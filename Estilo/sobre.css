@@ -1,19 +1,21 @@
-@charset "UTF-8";
+@charset "UTf-8";
+
 
 @font-face{
     font-family: 'Pixel';
     src: url(../fontes/Pixeled.ttf);
 }
 
-@font-face {
-    font-family: 'Sans';
-    src: url(../fontes/PixelifySans-VariableFont_wght.ttf);
+@font-face{
+    font-family: 'Jersey';
+    src: url(../fontes/Jersey_10/Jersey10-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Disco';
-    src: url(../fontes/DigitalDisco-Thin.ttf);
+    font-family: 'var' ;
+    src: url(../fontes/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
 }
+
 :root{
     --cor-links-header: #ff970a;
     --cor-letras: #ffffff;
@@ -35,19 +37,21 @@ body{
 
 header{
     margin-bottom: 30px;
-    background: #1c1c1c url(../imagens/Header-novidades.png) center center no-repeat ;
+    background: #1c1c1c url(../imagens/header-sobre.jpg) center center no-repeat ;
     background-size: cover;
     height: 450px;
     box-shadow: 2px 2px 6px black;
 }
 
-header > h1{
-    font-family: 'Pixel', Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    color: var(--cor-letras);
+
+
+
+#h1-inicio{
+    font-family: 'pixel', Arial, Helvetica, sans-serif;
     text-align: center;
-    padding-top: 100px;
+    text-decoration: underline;
     font-size: 2.3pc;
+    padding-top: 100px;
     color: #ffffff;
     text-shadow: 1px 1px 6px black;
 }
@@ -57,43 +61,24 @@ header a{
     color: var(--cor-letras);
 }
 
-#h1-inicio{
-}
-
-.plataforma{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.pfm{
-    flex: 1;
+article h1{
+    font-family: 'Jersey', Arial, Helvetica, sans-serif;
+    font-size: 5rem;
     text-align: center;
-    margin: 10px;
+    text-decoration: underline;
+    color: #b1b1b1;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+section p{
     padding: 10px;
-
-}
-
-.pfm  p{
-    text-decoration:  underline;
-    font-family: 'sans' , Arial, Helvetica, sans-serif;
-    background-color: #6d6a6a94;
-    border: 1px solid rgb(73, 65, 65);
-    font-size: 1.6em;
-    text-shadow: 1px 1px 6px  black;
+    font-family:'var';
+    color: #ffffff;
+    text-align: justify;
     
-}
-
-.pfm div{
-    padding: 10px 0px 0px 0px;
-    background-color: #222121;
-    border: 1px solid rgb(73, 65, 65);
-}
-
-.imge{
-    border-radius: 5%;
-    box-shadow: 1px 1px 6px black;
-    height: 220px;
-    width: 220px;
 }
 
 .menu{
