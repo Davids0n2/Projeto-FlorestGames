@@ -213,13 +213,21 @@ li{
       }
 }
 
- .linha{
-        text-align: center ;
-        background-color: rgba(255, 255, 255, 0.397);
-        padding: 1px;
-        margin: 0px 30px 20px 30px ;
+.linha{
+    border-radius: 1%;
+    color: #ffffff;
+    text-align: center ;
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 1px;
+    margin: 10px 30px 10px 30px ;
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    box-shadow: 1px 1px 6px black;
+}
 
- }
+.linha:hover{
+    text-decoration: underline;
+}
 
  .destaque{
     color: rgb(0, 255, 0);
