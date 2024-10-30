@@ -257,11 +257,11 @@ footer{
 }
 
 
-.h1-tutorial h1{
+.h1-tutorial h1 {
     font-size: 1.5em;
     text-align: center;
-    color: var(--cor-letras);
-    font-family: Arial, Helvetica, sans-serif;
+    color: #ff9706;
+    font-family: 'Disco', Arial, Helvetica, sans-serif;
 }
 
 .sec{
