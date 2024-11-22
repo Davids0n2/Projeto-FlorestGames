@@ -65,6 +65,8 @@ header a{
     text-align: center;
 }
 
+
+
 .discord img{
     padding: 10px;
     display: block;
@@ -239,10 +241,16 @@ footer{
 }
 
 #chavepix{
-    text-decoration: double;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px;
     color: #a3a3a3;
+    border: 1px solid rgb(0, 240, 12);
 }
 
 #chavepix:hover{
+    transition: 0.6s;
+    color: white;
+    background-color: rgb(0, 240, 12);
     text-decoration: underline;
 }
