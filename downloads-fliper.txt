@@ -1,9 +1,10 @@
 							Fliper
 
-MOBILE:
+PC:
 
+
+MOBILE:
 Emulador de PS2 (20.1mb)
 https://www.mediafire.com/file/y4awuvtf473bu1o/NetherSX2.apk/file
 
 GAMES:
-
