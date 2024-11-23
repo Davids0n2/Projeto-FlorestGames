@@ -65,10 +65,38 @@ header a{
     text-align: center;
 }
 
+.novidades{
+    margin: 10px;
+}
 
+.nov{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 1px solid rgba(255, 228, 196, 0.353);
+    border-radius: 20px;
+    background: linear-gradient(to bottom , rgb(43, 43, 43) 0% , rgb(255, 255, 255) 1000%);
+    margin-bottom: 20px;
+}
+
+.linha-nov{
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.linha-nov p{
+    text-align: center;
+}
+
+.imagens{
+    height:130px;
+    width:130px;
+}
 
 .discord img{
-    padding: 10px;
+    padding: 20px;
     display: block;
     margin: auto;
     border-radius: 50%;
